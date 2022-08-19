@@ -1,0 +1,22 @@
+---
+import { MyApp } from "../components/react/VanilaExample";
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Vanila</title>
+	</head>
+	<body>
+		<h1>Vanila</h1>
+		<p>
+			Example of context right from
+			<a href="https://beta.reactjs.org/apis/usecontext"
+				>https://beta.reactjs.org/apis/usecontext
+			</a>
+		</p>
+		<MyApp client:visible />
+	</body>
+</html>
